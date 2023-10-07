@@ -1,5 +1,4 @@
-a,b = input("Enter Two Numbers : ").split()
-if int(a) >= int(b):
-	print(a + "is large")
-else:
-	print(b + "is larger")
+number = input("Enter Two Numbers : ").split()
+maximum = map(int,number)
+print("The maxium number : " + str(max(maximum)))
+
